@@ -7,9 +7,13 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.springframework.stereotype.Component;
+
 import it.objectmethod.world.config.ConnectionFactory;
 import it.objectmethod.world.dao.ICountryDao;
 import it.objectmethod.world.model.Country;
+
+@Component
 
 public class CountryDaoImpl implements ICountryDao {
 
